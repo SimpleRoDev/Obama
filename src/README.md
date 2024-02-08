@@ -1,2 +1,0 @@
-# Obama
- Not here
