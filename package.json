@@ -1,22 +1,30 @@
 {
-  "name": "vanilla-app-template",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "fresh-harvest-box-team7",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://vladant92.github.io/fresh-harvest-box-team7",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/FRESH-HARVEST-BOX/",
-    "preview": "vite preview"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /fresh-harvest-box-team7/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladant92/fresh-harvest-box-team7.git"
+  },
+  "keywords": [],
+  "author": "Vlad Antonoae <vladantonoae@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladant92/fresh-harvest-box-team7/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "glob": "^8.1.0",
-    "vite": "^4.0.0"
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "enter": "^0.0.0",
-    "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
-  }
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

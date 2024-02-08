@@ -1,89 +1,26 @@
-<!-- СЕКЦІЯ КОНТАКТИ -->
-<section class="contacts-section" id="contacts">
-  <div class="contacts container">
-    <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
-    <img
-      class="contacts-img-mobile"
-      src="./img/mobile/contacts-fruit1-mobile.png"
-      srcset="
-        ./img/mobile/contacts-fruit1-mobile.png    1x,
-        ./img/mobile/contacts-fruit1-mobile@2x.png 2x
-      "
-      alt="sliced green melon"
-      width="335"
-      height="476"
-      loading="lazy"
-    />
-    <div class="contacts-img-tablet">
-      <img
-        src="./img/Tablet/contacts-fruit1-tablet.png"
-        srcset="
-          ./img/Tablet/contacts-fruit1-tablet.png    1x,
-          ./img/Tablet/contacts-fruit1-tablet@2x.png 2x
-        "
-        alt="sliced green melon"
-        width="344"
-        height="480"
-        loading="lazy"
-      />
-      <img
-        src="./img/Tablet/contacts-fruit2-tablet.png"
-        srcset="
-          ./img/Tablet/contacts-fruit2-tablet.png    1x,
-          ./img/Tablet/contacts-fruit2-tablet@2x.png 2x
-        "
-        alt="a lot of blueberries"
-        width="344"
-        height="480"
-        loading="lazy"
-      />
+<!-- Start of contacts section -->
+<section id="contacts" class="contacts">
+    <div class="contacts-container contacts-cont">
+        <div class="contacts-title">Fresh Harvest Box has got you covered</div>
+        <div class="contacts-images">
+            <img class="contacts-picture" src="images/melon-mobile.webp" alt="Melon" loading="lazy" srcset="images/melon-mobile.webp 335w, images/melon-mobile@2x.webp 670w, images/melon-tablet.webp 344w, images/melon-tablet@2x.webp 688w, images/melon-desktop.webp 792w, images/melon-desktop@2x.webp 1584w" sizes="(min-width: 1280px) 792px,
+    (min-width: 768px) 344px,
+    (min-width: 375px) 335px"/>
+            <img class="contacts-picture none" src="images/blueberry-tablet.webp" alt="Blueberry" loading="lazy" srcset="images/blueberry-tablet.webp 344w, images/blueberry-tablet@2x.webp 688w, images/blueberry-desktop.webp 400w, images/blueberry-desktop@2x.webp 800w" sizes="(min-width: 1280px) 400px,
+  (min-width: 768px) 344px"/>
+        </div>
+        <div class="contacts-bottom">
+            <p class="contacts-text">Our boxes are packed with delicious, nutritious fruits and vegetables,
+perfect for anyone looking to eat healthier or support local farmers.
+Order your box today and start enjoying the best that nature has to
+offer!
+</p>
+            <form class="contacts-form">
+                <label class="">
+                    <input class="contacts-input" type="email" name="E-mail" placeholder="Enter email..." required minlength="3"/>
+                    <button class="contacts-btn-send" type="submit">Send</button>
+                </label>
+            </form>
+        </div>
     </div>
-    <div class="contacts-img-desktop">
-      <img
-        src="./img/Desktop/contacts-fruit1.png"
-        srcset="
-          ./img/Desktop/contacts-fruit1.png    1x,
-          ./img/Desktop/contacts-fruit1@2x.png 2x
-        "
-        alt="sliced green melon"
-        width="792"
-        height="502"
-        loading="lazy"
-      />
-      <img
-        src="./img/Desktop/contacts-fruit2-desktop.png"
-        srcset="
-          ./img/Desktop/contacts-fruit2-desktop.png    1x,
-          ./img/Desktop/contacts-fruit2-desktop@2x.png 2x
-        "
-        alt="a lot of blueberries"
-        width="400"
-        height="502"
-        loading="lazy"
-      />
-    </div>
-    <div class="contacts-email">
-      <p class="contacts-text">
-        Our boxes are packed with delicious, nutritious fruits and vegetables,
-        perfect for anyone looking to eat healthier or support local farmers.
-        Order your box today and start enjoying the best that nature has to
-        offer!
-      </p>
-      <form class="contacts-form">
-        <label for="contact-mail"></label>
-        <input
-          id="contact-mail"
-          class="contacts-input"
-          type="email"
-          name="email"
-          placeholder="Enter email..."
-          required
-          minlength="5"
-        />
-        <button class="contacts-btn" type="submit" thanks-data-modal-open>
-          Send
-        </button>
-      </form>
-    </div>
-  </div>
 </section>
